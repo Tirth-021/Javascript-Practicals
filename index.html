@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    
+    
+</head>
+<body>
+   
+    <div class="container">
+    <div class="toggle">
+        <button onclick="toggleTheme('dark')">Dark</button>
+        <button onclick="toggleTheme('light')">Light</button>
+    </div>
+        <div class="display">
+            <input id="screen" type="text" placeholder="0" >
+        </div>
+
+        <div class="btns">
+
+            <div class="row">
+                <button>DEG</button>
+                <button>F-E</button>
+            </div>
+
+            <div class="row">
+                <button onclick="MC()" class="membtn">MC</button>
+                <button onclick="MR()" class="membtn">MR</button>
+                <button onclick="Mplus()" class="membtn">M+</button>
+                <button onclick="Mminus()" class="membtn">M-</button>
+                <button onclick="MS()" class="membtn">MS</button>
+            </div>
+
+            <div class="trigo">
+                <button>&#9727;  Trignometry &#709;</button>
+                <button>&#402;  Function &#709;</button>
+                
+            </div>
+
+            <div class="row">
+                <button onclick="">2<sup>nd</sup></button>
+                <button onclick="pi()">&#960;</button>
+                <button onclick="e()">e</button>
+                <button onclick="allclr()">AC</button>
+                <button onclick="backspc()" class="btn">Clr</button>
+            </div>
+
+
+            <div class="row">
+                <button onclick="square()">x<sup>2</sup></button>
+                <button onclick="inverse()">1/x</button>
+                <button onclick="abs()">|x|</button>
+                <button>exp</button>
+                <button class="btn">mod</button>
+                
+            </div>
+
+            <div class="row">
+                <button onclick="sqrt()">&#8730;x</button>
+                <button class="btn">(</button>
+                <button class="btn">)</button>
+                <button onclick="fact()">n!</button>
+                <button class="btn">÷</button>
+               
+            </div>
+
+            <div class="row">
+                <button>x<sup>y</sup></button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">×</button>
+                
+            </div>
+
+            <div class="row">
+                <button>10<sup>x</sup></button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">-</button>
+                
+            </div>
+
+            <div class="row">
+                <button onclick="log()">log</button>
+                <button class="btn">1 </button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">+</button>
+            </div>
+
+            <div class="row">
+                <button onclick="ln()">ln</button>
+                <button>+/- </button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button onclick="screen.value=eval(screen.value);" id="eval">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/logic.js"></script>
+</body>
+
+</html>
