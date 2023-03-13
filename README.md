@@ -23,6 +23,9 @@ Scientific calculator building using Javascript content. HTML,CSS concepts used 
 * Abs
 * 1/x
 * Square 
+* Sin
+* Cos
+* Tan
 <!-- end of the list -->
  ***Additional Functions***
 <!-- end of the bold italic -->
