@@ -10,7 +10,7 @@ var screen = document.querySelector('#screen');
 
     
     for (item of btn) {
-        item.addEventListener('click', (e) => {
+        item.addEventListener('mousedown', (e) => {
             btntext = e.target.innerText;
 
             if (btntext == '×') {
@@ -78,6 +78,18 @@ var screen = document.querySelector('#screen');
         
         
         mem=0;
+    }
+
+    function sin(){
+        screen.value=Math.sin(screen.value);
+    }
+
+    function cos(){
+        screen.value=Math.cos(screen.value);
+    }
+
+    function tan(){
+        screen.value=Math.tan(screen.value);
     }
 
     function square(){

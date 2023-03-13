@@ -79,6 +79,21 @@ body {
     background: #fff;
 }
 
+.trigo.Trignometry{
+
+    width: auto;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 2px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+
+}
+
 .trigo button{
 
     width: auto;
@@ -99,6 +114,22 @@ body {
         inset -5px -5px 8px #fff;
     background: #fff;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
 
 
 .display #screen {
