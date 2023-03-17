@@ -30,7 +30,9 @@ var screen = document.querySelector('#screen'); //accessing display value
             if(btntext=='C'){
                 btntext=''
             }
-            
+            if(btntext=='xy'){
+                btntext='**'
+            }
             
 
 
